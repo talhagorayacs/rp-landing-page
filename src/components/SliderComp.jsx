@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import lady from '../assets/lady.svg';
-import frame8057 from '../assets/frame-8057.svg';
+import frame8057 from '../assets/Frame-8057.svg';
 
 const SliderComp = () => {
     const settings = {
