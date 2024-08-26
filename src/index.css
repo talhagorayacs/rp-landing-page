@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.list-icon {
+    position: relative;
+    padding-left: 2em; 
+}
+
+.list-icon::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 1.5em;
+    height: 1.5em; 
+    background-image: url('../src/assets/bullet.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.list-icon-services {
+    position: relative;
+    padding-left: 2em; 
+}
+
+.list-icon-services::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top:50%;
+    transform: translateY(-50%);
+    width: 1em;
+    height: 1em; 
+    background-image: url('../src/assets/li-before.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+  
