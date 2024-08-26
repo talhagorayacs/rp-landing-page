@@ -71,7 +71,7 @@ const SliderComp = () => {
                     <div>
                         <Slider {...settings}>
                             {slidesData.map((slide) => (
-                                <div key={slide.id} className="rounded-38 bg-SliderComp-bg bg-no-repeat bg-cover">
+                                <div key={slide.id} className="rounded-38 bg-slider-bg bg-no-repeat bg-cover">
                                     <div className="flex">
                                         <div className="w-2/4 rounded-38 relative hidden lg:block">
                                             <div className="ml-15">

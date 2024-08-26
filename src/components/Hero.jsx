@@ -24,14 +24,17 @@ function Hero() {
   return (
     <main className="overflow-hidden" >
       {/* section 1 */}
-      <section data-aos="fade-right" className="pt-28 m-0 h-screen relative flex flex-col justify-center lg:justify-start">
+      <section
+  data-aos="fade-right"
+  className="pt-32 sm:pt-36 md:pt-40 lg:pt-28 m-0 relative flex flex-col justify-center lg:justify-start"
+>
   {/* Decorative Triangles */}
   <div className="absolute top-24 sm:top-48 md:top-72 lg:top-80 xl:top-[30rem]">
     <img src={triangles} alt="Decorative triangles" className="w-12 sm:w-16 md:w-20 lg:w-24" />
   </div>
 
   {/* Main Content */}
-  <div className="container lg:pt- mx-auto px-4 lg:flex lg:items-center">
+  <div className="container lg:pt-28 mx-auto px-4 lg:flex lg:items-center">
     <div className="lg:w-2/4 text-left lg:ml-36">
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] text-[#4A83E7]">
         Unlock the Power of <br />
@@ -46,35 +49,37 @@ function Hero() {
         We take pride in creating bespoke projects and thriving as a versatile hybrid model company
       </p>
       <div>
-        <button onClick={() => handleMenuItemClick('learn-more')} className="rounded-3xl bg-blue-500 text-white px-6 mt-7 py-3 text-sm sm:text-base md:text-lg">
+        <button
+          onClick={() => handleMenuItemClick('learn-more')}
+          className="rounded-3xl bg-blue-500 text-white px-6 mt-7 py-3 text-sm sm:text-base md:text-lg"
+        >
           Learn More
         </button>
-        <div class=" mt-[15rem] lg:mb-5">
-            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] text-[#4A83E7] font-semibold !3mb-3 lg:text-xxl mb-5">
-              <span class="text-[#555555]">Models</span> <span class="text-[#4A83E7]"> We Offer </span>
-            </h2>
-            <p id="modeloffer" class="text-lg text-[#555555]  lg:text-lg font-medium xl:text-lg leading-[2.6]">
-              By taking full
-              responsibility for the project from start to finish, we <br/>
-              ensure timely delivery and adherence to the highest quality standards.
-            </p>
-          </div>
+        <div className="mt-[15rem] lg:mb-5">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] text-[#4A83E7] font-semibold mb-5">
+            <span className="text-[#555555]">Models</span> <span className="text-[#4A83E7]"> We Offer </span>
+          </h2>
+          <p id="modeloffer" className="text-lg text-[#555555] lg:text-lg font-medium xl:text-lg leading-[2.6]">
+            By taking full responsibility for the project from start to finish, we <br />
+            ensure timely delivery and adherence to the highest quality standards.
+          </p>
+        </div>
         <img src={arrows} alt="Curly arrows" className="mt-4 pl-32 left-3 top-7 w-16 sm:w-20 md:w-24 lg:w-28" />
       </div>
     </div>
-    
+
     {/* Background Image */}
     <div className="hidden lg:block absolute right-0 top-[25%]">
       <img src={bg} alt="Background Decoration" className="w-full h-auto max-w-xs xl:max-w-md" />
     </div>
-    
   </div>
 </section>
+
 
       {/* section 2 */}
       <section id="learn-more" className="relative h-full w-screen">
   <div className="pb-16">
-    <div className="w-full h-auto lg:h-screen flex flex-col lg:flex-row px-4 pt-16 mx-auto">
+    <div className="w-full h-auto lg:h-screen flex flex-col lg:flex-row px-4 pt-8 mx-auto">
       {/* Project-Based Outsourcing */}
       <div data-aos="fade-up" className="lg:max-w-[350px] xl:max-w-[470px] lg:mx-auto relative mt-6">
         <h1 className="text-2xl sm:text-3xl md:text-[30px] lg:text-3xl 2xl:text-[40px] text-[#4A83E7] pb-4 pt-2">
@@ -105,8 +110,8 @@ function Hero() {
     </div>
   </div>
   
-  {/* Background Image */}
-  <div className="absolute bottom-0 left-0 w-full">
+  {/* section 2 Background Image */}
+  <div className=" sm:mt-5 bottom-0 left-0 w-full">
     <img className="w-full h-auto" src={hero} alt="Background Image" />
   </div>
 </section>
@@ -362,5 +367,4 @@ function Hero() {
         </main>
   );
 }
-
-export default Hero;
+export default Hero
