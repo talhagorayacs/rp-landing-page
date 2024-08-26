@@ -3,7 +3,7 @@ import logo from '../assets/site-logo.svg'
 function Footer() {
   return (
     <footer className="bg-custom-gradient3 py-[4rem] footer-section relative z-[2]">
-      <div className="container mt-10 pl-20">
+      <div className="container mt-10 p-4">
         <div className="flex flex-wrap justify-center mb-[2rem] lg:mb-[6rem]">
           <div className="w-full md:w-[50%] lg:w-[18%]">
             <h3 className="text-lg font-semibold mb-3 lg:mb-5">Product</h3>
