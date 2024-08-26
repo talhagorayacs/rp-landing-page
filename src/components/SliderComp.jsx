@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import lady from '../assets/lady.svg';
 import frame8057 from '../assets/frame-8057.svg';
 
-const SliderFunc = () => {
+const SliderComp = () => {
     const settings = {
         dots: true,
         infinite: true,
@@ -71,11 +71,11 @@ const SliderFunc = () => {
                     <div>
                         <Slider {...settings}>
                             {slidesData.map((slide) => (
-                                <div key={slide.id} className="rounded-38 bg-slider-bg bg-no-repeat bg-cover">
+                                <div key={slide.id} className="rounded-38 bg-SliderComp-bg bg-no-repeat bg-cover">
                                     <div className="flex">
                                         <div className="w-2/4 rounded-38 relative hidden lg:block">
                                             <div className="ml-15">
-                                                <img className="absolute bottom-0" height="300px" width="181px" src={slide.image} alt="Slider Image" />
+                                                <img className="absolute bottom-0" height="300px" width="181px" src={slide.image} alt="SliderComp Image" />
                                             </div>
                                         </div>
                                         <div className="w-2.5/4 px-16">
@@ -148,4 +148,4 @@ const SliderFunc = () => {
     );
 };
 
-export default SliderFunc;
+export default SliderComp;

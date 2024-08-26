@@ -9,8 +9,7 @@ import c_a from '../assets/curly-arrow.png'
 import usps from '../assets/usps.png'
 import right_short_triangles from '../assets/right-short-triangles.png'
 import left_short_triangles from '../assets/left-short-triangles.png'
-import Slider from "./slider";
-import SliderFunc from "./slider";
+import Slider from './SliderComp'
 import Home_QnAs from "./Home_QnAs";
 import Home_Form from '../Home_Form'
 function Hero() {
@@ -357,7 +356,7 @@ function Hero() {
           </div>
         </div>
       </section>
-      <SliderFunc />
+      <Slider />
       <Home_QnAs />
       <Home_Form/>  
         </main>
