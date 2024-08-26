@@ -15,7 +15,12 @@ import mobile_application from '../assets/mobile-application.svg'
 import ios_apple_image from '../assets/ios-apple-image.svg'
 import android_logo from '../assets/android-logo.svg'
 import cross_platform_img from '../assets/cross-platform-img.svg' 
-
+import design_bg_white from '../assets/design-bg-white.svg'
+import concept_bg_white from '../assets/concept-bg-white.svg'
+import mobile_with_flowers from  '../assets/mobile-with-flowers.svg'
+import scaling_bg_white from '../assets/develop-bg-white.svg'
+import security_bg_white from '../assets/launcg-bg-white.svg'
+import mobile_with_person_youtube from '../assets/mobile-with-person-youtube.svg'
 function Services() {
 
   const scrollToSection = (sectionId) => {
@@ -156,9 +161,9 @@ function Services() {
 
         </section>
         {/* section3 */}
-        <section className=" bg-service-bg py-[2rem] ">
-            <div className="container mt-6">
-                <div className="flex justify-center lg:justify-between items-center flex-wrap ">
+        <section className="bg-service-bg py-[2rem] ">
+  <div className="container mt-6 mx-auto max-w-[1200px]"> {/* Add mx-auto and set a max-width */}
+    <div className="flex justify-center lg:justify-between items-center flex-wrap">
 
                     <div className=" lg:w-[25%]  p-3 rounded-[10px]
                     lg:p-0 lg:rounded-[0] mb-4 lg:mb-0">
@@ -194,99 +199,164 @@ function Services() {
         </section>
         {/* section 4 */}
         <section className="bg-white py-[4rem] 2xl:p-[6rem_0_10rem_0] relative">
-            <div className="container z-[2]">
-                <div className="mb-8 lg:mb-[4rem] 3xl:mb-[5.5rem] 4xl:mb-[7rem] md:max-w-[85%] lg:max-w-[90%]">
-                    <h2 className="text-blue-500 font-extrabold text-[34px] interFont">Mobile Application Development</h2>
-                    <p className="text-2xl text-[#525167]">RootPointers specializes in delivering high-quality,
-                        user-friendly mobile
-                        applications
-                        that drive success for businesses across industries.</p>
-                    <p className="text-base 2xl:!text-[18px] text-[#525167] pt-4">Our app development services are tailored
-                        to transform your ideas
-                        into functional and visually
-                        appealing mobile and web applications.
-                        Our experienced team specializes in iOS, Android, and web-based app development, catering to a
-                        wide range of needs, from
-                        customer-facing apps to internal business tools.</p>
-                </div>
-                <div className="lg:flex lg:px-16">
-                    <div className="relative flex flex-col sm:flex-row sm:justify-between lg:flex-col z-[2] 
-                         flex-wrap mx-auto lg:m-0 lg:w-[45%] flex-[0_0_auto]">
-                        <div className="sm:w-[47%] lg:w-full sm:flex-[0_0_auto]  bg-white shadow-[1px_2px_12px_#ccccccbd] p-3 rounded-[10px]
-                     lg:bg-[transparent] lg:shadow-[none] lg:p-0 lg:rounded-[0] m-4 mb-4 lg:mb-8">
-                            <div className="h-full md:flex md:gap-4 items-center">
-                                <div className="h-[90px] w-[90px]  flex items-center justify-center bg-service2-bg rounded-full mb-3 imagee">
-                                    <img src={ios_apple_image} className="h-[45px] w-[45px]" height="40" width="40" alt="leadership"/>
-                                </div>
-                                <div>
-                                    <h3 className=" heading- text-xl  text-[#525167] font-bold !mb-4">iOS</h3>
-                                    <ul className="text-sm 2xl:text-md ul-after">
-                                        <li className="pl-6 mb-2 list-icon-services text-base text-[#525167]">Swift</li>
-                                        <li className="pl-6 mb-2 list-icon-services text-base text-[#525167]">Objective-C</li>
-                                    </ul>
-                                </div>
-
-                            </div>
+    <div className="container z-[2] mx-auto">
+        <div className="mb-8 lg:mb-[4rem] 3xl:mb-[5.5rem] 4xl:mb-[7rem] md:max-w-[85%] lg:max-w-[90%]">
+            <h2 className="text-blue-500 font-extrabold text-[34px] interFont">Mobile Application Development</h2>
+            <p className="text-2xl text-[#525167]">
+                RootPointers specializes in delivering high-quality, user-friendly mobile
+                applications that drive success for businesses across industries.
+            </p>
+            <p className="text-base 2xl:!text-[18px] text-[#525167] pt-4">
+                Our app development services are tailored to transform your ideas
+                into functional and visually appealing mobile and web applications.
+                Our experienced team specializes in iOS, Android, and web-based app development, catering to a
+                wide range of needs, from customer-facing apps to internal business tools.
+            </p>
+        </div>
+        <div className="lg:flex lg:px-16">
+            <div className="relative flex flex-col sm:flex-row sm:justify-between lg:flex-col z-[2] 
+                    flex-wrap mx-auto lg:m-0 lg:w-[45%] flex-[0_0_auto]">
+                <div className="sm:w-[47%] lg:w-full sm:flex-[0_0_auto] bg-white shadow-[1px_2px_12px_#ccccccbd] p-3 rounded-[10px]
+                lg:bg-[transparent] lg:shadow-[none] lg:p-0 lg:rounded-[0] m-4 mb-4 lg:mb-8">
+                    <div className="h-full md:flex md:gap-4 items-center">
+                        <div className="h-[90px] w-[90px] flex items-center justify-center bg-service2-bg rounded-full mb-3 imagee">
+                            <img src={ios_apple_image} className="h-[45px] w-[45px]" height="40" width="40" alt="leadership"/>
                         </div>
-                        <div className="sm:w-[47%] lg:w-full m-4 sm:flex-[0_0_auto]  bg-white shadow-[1px_2px_12px_#ccccccbd]   p-3 rounded-[10px]
-                          lg:bg-[transparent] lg:shadow-[none] lg:p-0 lg:rounded-[0] mb-4 lg:mb-8">
-                            <div className="h-full md:flex md:gap-4 items-center">
-                                <div className="h-[90px] w-[90px]  flex items-center justify-center bg-service2-bg rounded-full mb-3 imagee">
-                                    <img src={android_logo} className="h-[45px] w-[45px]" height="40" width="40" alt="leadership"/>
-                                </div>
-                                <div>
-                                    <h3 className=" heading-3  text-[#525167] font-bold !mb-4">Android</h3>
-                                    <ul className="text-sm 2xl:text-md ul-after">
-                                        <li className="pl-6 mb-2 list-icon-services text-base text-[#525167]">Java</li>
-                                        <li className="pl-6 mb-2 list-icon-services text-base text-[#525167]">Kotlin</li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <div>
+                            <h3 className="heading- text-xl text-[#525167] font-bold !mb-4">iOS</h3>
+                            <ul className="text-sm 2xl:text-md ul-after">
+                                <li className="pl-6 mb-2 list-icon-services text-base text-[#525167]">Swift</li>
+                                <li className="pl-6 mb-2 list-icon-services text-base text-[#525167]">Objective-C</li>
+                            </ul>
                         </div>
-                        <div className="sm:w-[47%] m-4 lg:w-full sm:flex-[0_0_auto]  bg-white shadow-[1px_2px_12px_#ccccccbd] p-3 rounded-[10px]
-                          lg:bg-[transparent] lg:shadow-[none] lg:p-0 lg:rounded-[0] mb-4 lg:mb-8">
-                            <div className="h-full md:flex md:gap-4 items-center">
-                                <div className="h-[90px] w-[90px]  flex items-center justify-center bg-service2-bg rounded-full mb-10 imagee">
-                                    <img src={cross_platform_img} className="h-[45px] w-[45px]" height="40" width="40" alt="leadership"/>
-                                </div>
-                                <div>
-                                    <h3 className=" heading-3  text-[#525167] font-bold !mb-4 mt-3">Cross-Platform</h3>
-                                    <ul className="text-sm 2xl:text-md ul-after">
-                                        <li className="pl-6 mb-2 list-icon-services text-base text-[#525167]">React Native</li>
-                                        <li className="pl-6 mb-2 list-icon-services text-base text-[#525167]">React.js, Vue.js</li>
-                                        <li className="pl-6 mb-2 list-icon-services text-base text-[#525167]">Angular.js</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
-                    <div className="hidden lg:block w-[50%] ">
-                        <img src={mobile_application} className="w-full" height="480" width="480" alt="mobile-application"/>
+                </div>
+                <div className="sm:w-[47%] lg:w-full m-4 sm:flex-[0_0_auto] bg-white shadow-[1px_2px_12px_#ccccccbd] p-3 rounded-[10px]
+                lg:bg-[transparent] lg:shadow-[none] lg:p-0 lg:rounded-[0] mb-4 lg:mb-8">
+                    <div className="h-full md:flex md:gap-4 items-center">
+                        <div className="h-[90px] w-[90px] flex items-center justify-center bg-service2-bg rounded-full mb-3 imagee">
+                            <img src={android_logo} className="h-[45px] w-[45px]" height="40" width="40" alt="leadership"/>
+                        </div>
+                        <div>
+                            <h3 className="heading-3 text-[#525167] font-bold !mb-4">Android</h3>
+                            <ul className="text-sm 2xl:text-md ul-after">
+                                <li className="pl-6 mb-2 list-icon-services text-base text-[#525167]">Java</li>
+                                <li className="pl-6 mb-2 list-icon-services text-base text-[#525167]">Kotlin</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div className="sm:w-[47%] m-4 lg:w-full sm:flex-[0_0_auto] bg-white shadow-[1px_2px_12px_#ccccccbd] p-3 rounded-[10px]
+                lg:bg-[transparent] lg:shadow-[none] lg:p-0 lg:rounded-[0] mb-4 lg:mb-8">
+                    <div className="h-full md:flex md:gap-4 items-center">
+                        <div className="h-[90px] w-[90px] flex items-center justify-center bg-service2-bg rounded-full mb-10 imagee">
+                            <img src={cross_platform_img} className="h-[45px] w-[45px]" height="40" width="40" alt="leadership"/>
+                        </div>
+                        <div>
+                            <h3 className="heading-3 text-[#525167] font-bold !mb-4 mt-3">Cross-Platform</h3>
+                            <ul className="text-sm 2xl:text-md ul-after">
+                                <li className="pl-6 mb-2 list-icon-services text-base text-[#525167]">React Native</li>
+                                <li className="pl-6 mb-2 list-icon-services text-base text-[#525167]">React.js, Vue.js</li>
+                                <li className="pl-6 mb-2 list-icon-services text-base text-[#525167]">Angular.js</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            {/* <div className="">
-                <span className="traingles absolute left-0 -mt-26 "><svg xmlns="http://www.w3.org/2000/svg" width="150" height="230" viewBox="0 0 155 290" fill="none">
-                        <path d="M142.33 115.011C147.663 118.09 147.663 125.788 142.33 128.867L-15.7746 220.149C-21.1079 223.228 -27.7746 219.379 -27.7746 213.221L-27.7746 30.657C-27.7746 24.4986 -21.1079 20.6496 -15.7746 23.7288L142.33 115.011Z" fill="url(#paint0_linear_2625_1024)" fill-opacity="0.33"></path>
-                        <path d="M123.994 160.741C129.327 163.82 129.327 171.518 123.994 174.597L-34.1105 265.879C-39.4439 268.958 -46.1105 265.109 -46.1105 258.951L-46.1105 76.3874C-46.1105 70.229 -39.4438 66.38 -34.1105 69.4592L123.994 160.741Z" fill="url(#paint1_linear_2625_1024)" fill-opacity="0.22"></path>
-                        <defs>
-                            <linearGradient id="paint0_linear_2625_1024" x1="171.105" y1="111.037" x2="-23.0975" y2="103.715" gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#8C83C0"></stop>
-                                <stop offset="1" stop-color="#4A83E7"></stop>
-                            </linearGradient>
-                            <linearGradient id="paint1_linear_2625_1024" x1="250.733" y1="139.991" x2="-41.4335" y2="149.446" gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#BA27BD"></stop>
-                                <stop offset="1" stop-color="#4A83E7"></stop>
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                </span>
+            <div className="hidden lg:block w-[50%]">
+                <img src={mobile_application} className="w-full" height="480" width="480" alt="mobile-application"/>
             </div>
+        </div>
+    </div>
+    {/* Commented out SVG and circle image for now */}
+</section>
+    {/* section 4 */}
+    <section className="pt-4">
+    <div className="bg-service3-bg lg:rounded-[233px_0_0_0] py-[4rem] 2xl:p-[6rem_0_10rem_0] relative pt-16">
+        <div className="container z-[2] px-6">
+            <div className="lg:flex items-center mb-[6rem]">
+                
+                <div className="relative flex flex-col sm:flex-row sm:justify-between lg:flex-col z-[2] flex-wrap mx-auto lg:m-0 lg:w-[45%] flex-[0_0_auto]">
+                    <div className="sm:w-[47%] lg:w-full sm:flex-[0_0_auto] mb-4 lg:mb-8">
+                        <div className="h-full md:flex md:gap-4 items-center text-center md:text-left">
+                            <img src={concept_bg_white} className="h-[120px] w-[100px] 3xl:h-[120px] 3xl:w-[120px] flex-[0_0_auto] mb-4 lg:mb-0 mx-auto md:mx-0" height="100" width="100" alt="concept" />
+                            <div>
+                                <h3 className="heading-3 text-xl text-[#525167] !mb-4">Concept</h3>
+                                <p className="p-tag text-base text-[#525167]">
+                                    The initial phase where we define your app's purpose, target audience, and core functionality, setting the stage for development.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="sm:w-[47%] lg:w-full sm:flex-[0_0_auto] mb-4 lg:mb-8">
+                        <div className="h-full md:flex md:gap-4 items-center text-center md:text-left">
+                            <img src={design_bg_white} className="h-[120px] w-[100px] 3xl:h-[120px] 3xl:w-[120px] flex-[0_0_auto] mb-4 lg:mb-0 mx-auto md:mx-0" height="100" width="100" alt="design" />
+                            <div>
+                                <h3 className="heading-3 text-xl text-[#525167] !mb-4">Design</h3>
+                                <p className="p-tag text-base text-[#525167]">
+                                    During this stage, we create the visual blueprint, wireframes, and user interface to ensure an intuitive and aesthetically pleasing app.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div className="hidden lg:block w-[47%]">
+                    <img src={mobile_with_flowers} className="w-[80%] ml-auto" height="281" width="284" alt="mobile-application" />
+                </div>
+            </div>
+            <div className="lg:flex lg:flex-row-reverse items-center">
+               
+                <div className="relative flex flex-col sm:flex-row sm:justify-between lg:flex-col z-[2] flex-wrap mx-auto lg:m-0 lg:w-[45%] flex-[0_0_auto]">
+                    <div className="sm:w-[47%] lg:w-full sm:flex-[0_0_auto] mb-4 lg:mb-8">
+                        <div className="h-full md:flex md:gap-4 items-center text-center md:text-left">
+                            <img src={concept_bg_white} className="h-[120px] w-[100px] 3xl:h-[120px] 3xl:w-[120px] flex-[0_0_auto] mb-4 lg:mb-0 mx-auto md:mx-0" height="100" width="100" alt="development" />
+                            <div>
+                                <h3 className="heading-3 text-xl text-[#525167] !mb-4">Development</h3>
+                                <p className="p-tag text-base text-[#525167]">
+                                    This phase involves coding the app, building its functionality, and conducting rigorous testing to ensure it meets quality standards.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="sm:w-[47%] lg:w-full sm:flex-[0_0_auto] mb-4 lg:mb-8">
+                        <div className="h-full md:flex md:gap-4 items-center text-center md:text-left">
+                            <img src={scaling_bg_white}className="h-[120px] w-[100px] 3xl:h-[120px] 3xl:w-[120px] flex-[0_0_auto] mb-4 lg:mb-0 mx-auto md:mx-0" height="130" width="130" alt="launch" />
+                            <div>
+                                <h3 className="heading-3 text-xl text-[#525167] !mb-4">Launch</h3>
+                                <p className="p-tag text-base text-[#525167]">
+                                    The final step where your app goes live, reaching its intended audience, followed by ongoing updates and improvements to enhance its performance.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div className="hidden lg:block w-[64%]">
+                    <img src={mobile_with_person_youtube} className="w-[80%] mr-auto" height="301" width="364" alt="mobile-application" />
+                </div>
+            </div>
+        </div>
+       
+        <span className="absolute -translate-y-2/4 left-0 top-2/4 z-[-1] mt-10">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="230" viewBox="0 0 129 285" fill="none">
+                <path d="M-13.4136 284.883C24.3265 284.883 60.5209 269.891 87.2072 243.205C113.894 216.518 128.886 180.324 128.886 142.584C128.886 104.844 113.894 68.6495 87.2073 41.9632C60.521 15.2769 24.3266 0.284669 -13.4135 0.284662L-13.4135 62.4653C7.83523 62.4654 28.2137 70.9064 43.2389 85.9316C58.264 100.957 66.705 121.335 66.705 142.584C66.705 163.833 58.264 184.211 43.2388 199.236C28.2137 214.262 7.83521 222.703 -13.4136 222.703L-13.4136 284.883Z" fill="url(#paint0_linear_1544_5178)" fill-opacity="0.33"></path>
+                <defs>
+                    <linearGradient id="paint0_linear_1544_5178" x1="128.886" y1="142.584" x2="-155.713" y2="142.584" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4A83E7"></stop>
+                        <stop offset="1" stop-color="#00D0FF"></stop>
+                    </linearGradient>
+                </defs>
+            </svg>
+        </span>
+        <span className="absolute right-0 top-[20%] z-[-1]">
+            <img src="Static/Images/double-right-trianles-tilted.svg" alt="" />
+        </span>
+    </div>
+</section>
 
-            <span className="circle-right absolute bottom-[30%] right-0 "><img src="Static/Images/circlr-right-design.svg" alt="double triangle"/>
-            </span> */}
-        </section>
+
+
     </main>
   )
 }
